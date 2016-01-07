@@ -1,0 +1,144 @@
+body{
+  min-width: 520px;
+}
+header{
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: 180px;
+  border: solid;
+  border-bottom: none;
+  border-radius: 80px 0 0 0;
+  background-color: rgba(65, 0, 105, 1);
+}
+#title{
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid;
+  height: 120px;
+  width: 100%;
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 3em;
+  margin-left: 30px;
+  font-family: 'Rock Salt', cursive;
+  color: rgba(65, 100, 105, 1);
+}
+#logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  margin-right: 9%;
+  margin-top: 10px;
+}
+nav{
+  background-color: rgba(65, 100, 105, 1);
+  border-bottom: solid;
+}
+ul{
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  list-style-type: none;
+}
+li{
+  border-bottom: solid;
+  /*width: 100px;*/
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main{
+  width: 98%;
+  height: 100%;
+  border: solid;
+  border-top: none;
+  border-radius: 0 0 80px 0;
+  background-color: rgba(65, 0, 105, 1);
+}
+article{
+  padding: 40px;
+  background-color: rgba(65, 0, 105, 1);
+  border-radius: 0 0 80px 0;
+}
+img{
+  width: 250px;
+  height: 200px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.arTilte{
+  text-align: center;
+  font-family: 'Chewy', cursive;
+}
+.disc{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.details{
+  text-align: right;
+  font-style: italic;
+  font-family: 'Amatic SC', cursive;
+}
+.store{
+  /*border: solid;*/
+  border-radius: 80px 0 80px 0;
+  padding: 10px;
+  height: 200px;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+  background-color: rgba(65, 100, 105, 1);
+  cursor: pointer;
+}
+
+.body{
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  /*border: solid;*/
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+
+}
+.full{
+  height: 100%;
+}
+
+@media (max-width: 900px){
+  h1{
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 650px){
+  h1{
+    font-size: 1.5em;
+  }
+  ul{
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+  }
+}
