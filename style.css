@@ -4,6 +4,8 @@ body{
 header{
   display: -webkit-flex;
   -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 98%;
   height: 180px;
   border: solid;
@@ -15,6 +17,9 @@ header{
   display: -webkit-flex;
   flex-direction: row;
   -webkit-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-bottom: solid;
   height: 120px;
   width: 100%;
@@ -42,6 +47,9 @@ ul{
   display: -webkit-flex;
   -webkit-flex-direction: row;
   -webkit-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
   list-style-type: none;
@@ -59,7 +67,7 @@ main{
   border: solid;
   border-top: none;
   border-radius: 0 0 80px 0;
-  background-color: rgba(65, 0, 105, 1); 
+  background-color: rgba(65, 0, 105, 1);
 }
 article{
   padding: 40px;
@@ -126,6 +134,9 @@ img{
     display: -webkit-flex;
     -webkit-flex-direction: row;
     -webkit-justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
     list-style-type: none;
