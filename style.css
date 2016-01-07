@@ -59,10 +59,12 @@ main{
   border: solid;
   border-top: none;
   border-radius: 0 0 80px 0;
+  background-color: rgba(65, 0, 105, 1); 
 }
 article{
   padding: 40px;
   background-color: rgba(65, 0, 105, 1);
+  border-radius: 0 0 80px 0;
 }
 img{
   width: 250px;
